@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import LeftDash from './LeftDash/LeftDash';
+import BottomDash from './BottomDash/BottomDash';
 import styles from './App.css';
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div className={styles.App}>
         <LeftDash />
+        <BottomDash />
       </div>
     );
   }
