@@ -1,8 +1,8 @@
 
 
-const autoprefixer = require('autoprefixer');
+const autoprefixer = require('autoprefixer/lib/autoprefixer');
 const path = require('path');
-const webpack = require('webpack');
+const webpack = require('../../../../Library/Caches/typescript/2.9/node_modules/@types/webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const ManifestPlugin = require('webpack-manifest-plugin');
